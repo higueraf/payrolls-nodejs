@@ -1,0 +1,47 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+prod.sh
+
+pids
+logs
+results
+tmp
+coverage
+
+# API keys
+.env
+
+# Dependency directory
+node_modules
+bower_components
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE metadada
+import/log.txt
+dump.rdb
+
+#locals
+locales
+
+# api documentation
+swagger-output.json
+
+#unit test examples
+cypress/integration/examples/
+
+# entity relation diagram
+erd.pdf

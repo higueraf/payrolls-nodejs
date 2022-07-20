@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+  node-app:
+    build: .
+    command: nodemon --inspect=0.0.0.0:9229 ./index 3000
+    volumes:
+      - .:/node
+    ports:
+      - "3000:3000"
+      - "9229:9229"
+    env_file:
+      - .env
+        
